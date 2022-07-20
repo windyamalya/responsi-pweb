@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Orderan</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+    <div align="center">
+        <strong>
+            <font size="6" face="Courier New, Courier, mono">ORDERAN LAUNDRY IBU</font>
+        </strong>
+    </div>
+    <form name="form1" method="post" action="proses.php">
+        <table width="58%" border="0" align="center">
+            <tr>
+                <td>Nama</td>
+                <td><input name="nama" type="text" id="nama" /></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><input name="alamat" type="text" id="alamat" /></td>
+            </tr>
+            <tr>
+                <td>Kontak</td>
+                <td><input name="kontak" type="text" id="kontak" /></td>
+            </tr>
+            <tr>
+                <td>Orderan</td>
+                <td>
+                    <select name="order" id="order">
+                        <option>Reguler</option>
+                        <option>Express</option>
+                        <option>Super Express</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Catatan</td>
+                <td><textarea name="catatan" id="catatan"></textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" name="Submit" value="Kirim" /><input type="reset" 43.name="Submit2"
+                        value="Batal" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div align="center">
+        <strong><a href="lihat.php">::Lihat Orderan:: </a></strong>
+    </div>
+</body>
+
+</html>
